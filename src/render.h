@@ -31,6 +31,7 @@ void make_sub_img16(ASS_Image* img, uint8_t** sub_img, uint32_t width, int bits_
 
 void apply_rgba(uint8_t** sub_img, uint8_t** data, int32_t* pitch, uint32_t width, uint32_t height);
 void apply_rgb(uint8_t** sub_img, uint8_t** data, int32_t* pitch, uint32_t width, uint32_t height);
+void apply_rgb32(uint8_t** sub_img, uint8_t** data, int32_t* pitch, uint32_t width, uint32_t height);
 void apply_rgb48(uint8_t** sub_img, uint8_t** data, int32_t* pitch, uint32_t width, uint32_t height);
 void apply_rgb64(uint8_t** sub_img, uint8_t** data, int32_t* pitch, uint32_t width, uint32_t height);
 void apply_yuy2(uint8_t** sub_img, uint8_t** data, int32_t* pitch, uint32_t width, uint32_t height);
